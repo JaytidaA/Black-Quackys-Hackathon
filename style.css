@@ -126,7 +126,7 @@ div#performance_sheet button a {
   height: 20vh;
   margin-top:-15vh;
   background-color: #e6e6e6;
-  font-family: Amarnath;
+  font-family: Amaranth;
 }
 
 .adminopts{
@@ -138,6 +138,10 @@ div#performance_sheet button a {
 .student,.faculty,.groups{
   width: 33.3vw;
   text-align: center;
+  color: rgb(100, 100, 100);
+  font-family: Amaranth;
+  font-size: 20px;
+
 }
 #ADMIN img{
   padding:40px;
