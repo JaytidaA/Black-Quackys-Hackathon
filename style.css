@@ -33,19 +33,21 @@ body#ADMIN{
 }
 
 .header#name_institute{
+
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: #000000;
+  padding-top:35px;
   z-index: 1;
   color: #ffffff;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 44.3px;
+  font-size: 42px;
   font-family: Amaranth;
+  text-transform: uppercase;
 }
 
 
@@ -130,9 +132,12 @@ div#performance_sheet button a {
 
 .adminbody{
   height: 20vh;
-  margin-top:-15vh;
+  margin-top:15vh;
   background-color: #e6e6e6;
   font-family: Amaranth;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .adminopts{
