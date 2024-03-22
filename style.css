@@ -34,14 +34,20 @@ body#ADMIN{
 
 .header#name_institute{
   position: absolute;
-  top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #000000;
   z-index: 1;
   color: #ffffff;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 44.3px;
   font-family: Amaranth;
 }
+
 
 .header#name_institute a{
   text-decoration: white none;
