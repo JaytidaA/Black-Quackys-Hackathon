@@ -1,7 +1,10 @@
 body{
-  background-image: url("home_bg.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 4vh;
+  overflow: hidden;
+ 
 }
 
 .headercont{
@@ -16,6 +19,16 @@ body{
   height: 15vw;
 }
 
+#icon {
+  border-radius: 100%;
+  background-color: black;
+}
+
+#icon img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .header#name_institute{
   position: absolute;
   top: 0px;
@@ -25,6 +38,16 @@ body{
   text-align: center;
   font-size: 44.3px;
   font-family: Amaranth;
+}
+
+.header#name_institute a{
+  text-decoration: white none;
+  color: white;
+}
+
+.header#name_institute a:visited{
+  text-decoration: white none;
+  color: white;
 }
 
 .header#rotate1{
@@ -46,7 +69,7 @@ body{
 .headeritem#icon{
   width: 142px;
   height: 142px;
-  background-color: #b1d4e0;
+  background-color: white;
   border: 5px solid #ffffff;
   border-radius: 50%;
   margin-top: 50px;
@@ -79,15 +102,22 @@ div#performance_sheet button{
   width: 250px;
   height: 50px;
   font-size: 18px;
-  background-color: rgb(215, 215, 215);
+  background-color: #dcdcdc;
+  box-shadow: #666666 2px;
   color: #444444;
   border-radius: 10%;
 
 }
 
+div#performance_sheet button a {
+  text-decoration: #444444 none;
+  color:#444444;
+}
+
+
+
 
 .contentcont {
-  background-color: #ffffff;
   height: 75vw;
   font-size: 30px;
 }
