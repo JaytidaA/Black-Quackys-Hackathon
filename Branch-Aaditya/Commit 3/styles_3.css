@@ -1,0 +1,122 @@
+*{
+    /* Box Properties */
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* Colour Properties */
+    background-color: #f5f3f5;
+}
+
+.container{
+    /* Box Properties */
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin: 5vh auto 5vh auto;
+    
+
+    /* Display Properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    /* Position Properties */
+    position: relative;
+
+    /* Colour Properties */
+    background-color: #ffffff;
+}
+
+.splashtext{
+    /* Box Properties */
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+
+    /* Text and Font Properties */
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Raleway;
+    text-align: center;
+}
+
+.detailing{
+    /* Box Properties */
+    margin: 3.5vw 7vw 3.5vw 7vw;
+}
+
+.detailing p{
+    /* Text and Font Properties */
+    font-size: 18px;
+    font-family: Raleway;
+    text-align: left;
+}
+
+.detailing hr{
+    border: 1px dashed black;
+    margin-bottom: 5vh;
+}
+
+.detail_form{
+    /* Flex Properties */
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_form label{
+    /* Box Properties */
+    margin: 0.1vh;
+
+    /* Text and Font Properties */
+    font-size: 18px;
+    font-family: Fira_Code;
+    text-align: left;
+}
+
+.detail_form input{
+    /* Box Properties */
+    height: 6vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: none;
+    border-radius: 8vh;
+    margin: 0.4vh;
+
+    /* Text Properties */
+    font-size: 4vh;
+    font-family: Raleway;
+    text-align: center;
+
+    /* Colour Properties */
+    background-color: #f5f3f5;
+    color: #666769;
+}
+
+.detail_form textarea{
+    resize: none;
+    /* Box Properties */
+    padding: 1vw;
+    border: none;
+    border-radius: 4vh;
+    margin: 0.4vh;
+
+    /* Text and Font Properties */
+    font-size: 4vh;
+    font-family: Raleway;
+    text-align: left;
+
+    /* Colour Properties */
+    background-color: #f5f3f5;
+    color: #666769;
+}
+
+.detail_form#submit_button{
+    /* Text and Font Properties */
+    font-size: 4vh;
+    font-family: Raleway;
+    text-align: center;
+
+    /* Colour Properties */
+    color: #666769;
+}
