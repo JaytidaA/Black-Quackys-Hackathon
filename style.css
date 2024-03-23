@@ -1,3 +1,4 @@
+
 body#HOME{
   background-image: url("background.jpg");
   background-size: cover;
@@ -33,7 +34,6 @@ body#ADMIN{
 }
 
 .header#name_institute{
-
   position: absolute;
   top: 0;
   left: 0;
@@ -55,8 +55,16 @@ body#ADMIN{
   text-decoration: white none;
   color: white;
 }
+.header#name_inst a{
+  text-decoration: white none;
+  color: white;
+}
 
 .header#name_institute a:visited{
+  text-decoration: white none;
+  color: white;
+}
+.header#name_inst a:visited{
   text-decoration: white none;
   color: white;
 }
@@ -157,4 +165,22 @@ div#performance_sheet button a {
 #ADMIN img{
   padding:40px;
   height:20vh;
+}
+.header#name_inst {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  padding-top:35px;
+  z-index: 1;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 42px;
+  font-family: Amaranth;
+  text-transform: uppercase;
 }
